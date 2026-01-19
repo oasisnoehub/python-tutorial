@@ -5,7 +5,7 @@ import pygame
 pygame.init()
 
 # 设置窗口大小
-screen = pygame.display.set_mode((600, 400))
+screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("我的第一个游戏")
 
 # 游戏循环

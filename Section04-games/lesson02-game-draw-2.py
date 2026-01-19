@@ -13,9 +13,9 @@ while running:
     screen.fill((0, 0, 50))  # 深蓝色背景
 
     # 绘制形状
-    pygame.draw.rect(screen, (255, 0, 0), (50, 50, 100, 50))  # 红色矩形
-    # pygame.draw.circle(screen, (0, 255, 0), (300, 200), 40)   # 绿色圆
-    # pygame.draw.line(screen, (255, 255, 0), (0,0), (600,400), 5) # 黄色线
+    pygame.draw.rect(screen, (5,5, 99), (100, 5, 77,255))  # 红色矩形
+    pygame.draw.circle(screen, (9, 5, 99), (30, 200), 40)   # 绿色圆
+    pygame.draw.line(screen, (98, 2, 76), (0,0), (600,400), 5) # 黄色线
 
     # 更新屏幕
     pygame.display.update()

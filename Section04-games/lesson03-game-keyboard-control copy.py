@@ -2,7 +2,7 @@
 import pygame
 
 pygame.init()
-screen = pygame.display.set_mode((1000, 1000))
+screen = pygame.display.set_mode((600, 400))
 pygame.display.set_caption("控制角色移动")
 
 # 角色位置
@@ -22,17 +22,13 @@ while running:
     # 获取键盘按键
     keys = pygame.key.get_pressed()
     if keys[pygame.K_LEFT]:
-        player_x -= player_speed 
-        if player_x < 0:
-            player_x =0
+        player_x -= player_speed
     if keys[pygame.K_RIGHT]:
         player_x += player_speed
     if keys[pygame.K_UP]:
         player_y -= player_speed
     if keys[pygame.K_DOWN]:
         player_y += player_speed
-        if player_y < 0:
-            player_y=0
 
     pygame.display.update()
 
